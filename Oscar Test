@@ -6,7 +6,7 @@
         p {}    
         a {color:rgb(0,300,0); text-decoration:none;}
         a:hover {background-color:rgb(10,100,0);}
-        a: {color red}
+        a: {}
         #ptest {text-align:center; padding:10px; font-size:20px;}
         #h1test {font-size:40px; border:inset; background-color:rgb(10,100,0); text-align:center;}
         #vaulttec {position:absolute; top:110; left:560;}
@@ -24,9 +24,9 @@
      <p id="ptest"> Welcome to my terminal </p>
       
      <ul>
-        <a href="./Oscar test2.html" >[1]</a> <br>
-        <a href="list" >[2]</a> <br>
-        <a href="list" > [3]</a> <br>
+        <a href="./Oscar test2.html" >[Favorite Foods]</a> <br>
+        <a href="list" >[Favorite Games]</a> <br>
+        <a href="list" > [Favorite ]</a> <br>
         <a href="list" > [4]</a> <br>
         <a href="list" > [5]</a> <br>
         <a href="list" > [6]</a> <br>
