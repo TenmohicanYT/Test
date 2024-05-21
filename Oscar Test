@@ -1,40 +1,40 @@
 <html>
-  <head>
-<style>
-    html {background-color:rgb(0,0,0); font-family:monospace; color:rgb(0,300,0);}
-    h1 {}
-    p {}    
-    a {color:rgb(0,300,0); text-decoration:none;}
-    a:hover {background-color:rgb(10,100,0);}
-    a: {color red}
-     #ptest {text-align:center; padding:10px; font-size:20px;}
-     #h1test {font-size:40px; border:inset; background-color:rgb(10,100,0); text-align:center;}
-</style>
+    <head>
+        <style>
+        html {background-color:rgb(0,0,0); font-family:monospace; color:rgb(0,300,0);}
+        h1 {}
+        p {}    
+        a {color:rgb(0,300,0); text-decoration:none;}
+        a:hover {background-color:rgb(10,100,0);}
+        a: {color red}
+        #ptest {text-align:center; padding:10px; font-size:20px;}
+        #h1test {font-size:40px; border:inset; background-color:rgb(10,100,0); text-align:center;}
+        #vaulttec {position:absolute; top:110; left:560;}
+    </style>
 
-
-  </head>
-  <body>
+</head>
+    <body>
       <br>
      <h1 id=h1test>Terminal v1.03.5</h1> 
-          <h5>User: Guest1 <br> Password:*******</h5>
+     <h5>User: Guest1 <br> Password:*******</h5>
           
+          <img src="https://vaulttec.neocities.org/images/VaultTecLogoGreen.png" width="250" id="vaulttec">
+          
+          <br>
      <p id="ptest"> Welcome to my terminal </p>
       
-      <ul>
-        <a href="list" >[1]</a> <br>
+     <ul>
+        <a href="./Oscar test2.html" >[1]</a> <br>
         <a href="list" >[2]</a> <br>
         <a href="list" > [3]</a> <br>
         <a href="list" > [4]</a> <br>
         <a href="list" > [5]</a> <br>
         <a href="list" > [6]</a> <br>
         <a href="list" > [7]</a> <br>
-          
       </ul>
       
 
-
-
-  </body>
+    </body>
 
 
 
