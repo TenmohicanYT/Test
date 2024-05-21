@@ -21,10 +21,13 @@
      <p id="ptest"> Welcome to my terminal </p>
       
       <ul>
-        <a href="list" >[Favorite Games]</a> <br>
-         [Favorite Songs] <br>
-         [Favorite Foods] <br>
-         [Current Topics]
+        <a href="list" >[1]</a> <br>
+        <a href="list" >[2]</a> <br>
+        <a href="list" > [3]</a> <br>
+        <a href="list" > [4]</a> <br>
+        <a href="list" > [5]</a> <br>
+        <a href="list" > [6]</a> <br>
+        <a href="list" > [7]</a> <br>
           
       </ul>
       
