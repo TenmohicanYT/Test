@@ -39,7 +39,7 @@
         #vaulttec {
             position: absolute;
             top: 110;
-            left: 560;
+            left: 165;
         }
     </style>
 
@@ -56,14 +56,17 @@
     <p id="ptest"> Welcome to my terminal </p>
 
     <ul>
-        <a href="./Oscar test2.html">[Favorite Foods]</a> <br>
+        <a href="list">[Favorite Foods]</a> <br>
         <a href="list">[Favorite Games]</a> <br>
         <a href="list"> [Current News]</a> <br>
         <a href="list"> [Upcoming Events]</a> <br>
-        <a href="list"> [5]</a> <br>
-        <a href="list"> [6]</a> <br>
-        <a href="list"> [7]</a> <br>
+        <a href="list"> [Upcoming Goals]</a> <br>
     </ul>
+<br><br><br>
+----------------------------------------------------------------------
+
+
+
 
 
 </body>
