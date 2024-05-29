@@ -38,32 +38,106 @@
 
         #vaulttec {
             position: absolute;
-            top: 110;
-            left: 165;
+            top: 120;
+            left: 185;
+        }
+
+        #sandwich {
+            position: absolute;
+            top: 540;
+            right: 355;
+            border: double;
+        }
+
+        #divtest {
+            background-color: rgb(0, 60, 0);
+            padding: 10px;
+            border: double;
+            margin: 10px;
+            text-align: right;
+            font-size: 30;
+        }
+
+        #lasagna {
+            position: absolute;
+            top: 403;
+            border: double;
+            right: 355;
+        }
+
+        #spaghetti {
+            position: absolute;
+            top: 637;
+            right: 355;
+            border: double;
+        }
+
+        #cereal {
+            position: absolute;
+            top: 773;
+            right: 355;
+            border: double;
+        }
+
+        #krave {
+            position: absolute;
+            top: 816;
+            right: 20;
+            border: double;
+        }
+
+        #honey {
+            position: absolute;
+            top: 816;
+            right: 187;
+            border: double;
+        }
+
+        #d1 {
+            padding: 10px;
+            border: green ridge;
         }
     </style>
 
 </head>
 
 <body>
-    <br>
-    <h1 id=h1test>Terminal v1.03.5</h1>
-    <h5>User: Guest1 <br> Password:*******</h5>
+    <div id="d1">
+        <br>
+        <h1 id=h1test>Terminal v1.03.5</h1>
+        <h5>User: Guest1 <br> Password:*******</h5>
 
-    <img src="https://vaulttec.neocities.org/images/VaultTecLogoGreen.png" width="250" id="vaulttec">
+        <img src="https://vaulttec.neocities.org/images/VaultTecLogoGreen.png" width="200" id="vaulttec">
 
-    <br>
-    <p id="ptest"> Welcome to my terminal </p>
+        <br>
+        <p id="ptest"> Welcome to my terminal </p>
 
-    <ul>
-        <a href="list">[Favorite Foods]</a> <br>
-        <a href="list">[Favorite Games]</a> <br>
-        <a href="list"> [Current News]</a> <br>
-        <a href="list"> [Upcoming Events]</a> <br>
-        <a href="list"> [Upcoming Goals]</a> <br>
-    </ul>
-<br><br><br>
-----------------------------------------------------------------------
+        <ul>
+            <a href="#foodlist">[Favorite Foods]</a> <br>
+            <a href="https://docs.google.com/document/d/1t42zv3Vrp34e4h7_N2TeeWsCdfEGSC3I3Ub6zyPBX-s/edit">[Favorite Games]</a> <br>
+            <a href="https://docs.google.com/document/d/18PcWEc-i-eNNnl6CqRgmApT-mdDHtC9G_0opWmPzgxc/edit"> [Current News]</a> <br>
+            <a href="list"> [Upcoming Events]</a> <br>
+            <a href="list"> [Upcoming Goals]</a> <br>
+        </ul>
+    </div>
+
+    <div id="divtest" href="#foodlist">
+        <ul>Favorite foods:</ul>
+        <li>1. Lasagna</li>
+        <li>2. Sandwiches</li>
+        <li>3. Spaghetti</li>
+        <li>4. Cereal </li>
+
+        <br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Subway_submarine_sandwich.JPG" width="200" id="sandwich">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Beef_lasagna_at_Cafe_Stax%2C_July_2009.jpg" width="200" id="lasagna">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Spaghetti_al_Pomodoro.JPG" width="200" id=spaghetti>
+    <img src="https://www.kroger.com/product/images/large/front/0003000006354" width="200" id="cereal">
+    <img src="https://i5.walmartimages.com/seo/Kellogg-s-Krave-Chocolate-Breakfast-Cereal-Family-Size-17-3-oz-Box_820de926-e935-419f-93fd-0abb6ec31d44.b7f789bd97dd3fa6f5a10c5951902f97.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" width="160" id="krave">
+    <img src="https://i5.peapod.com/c/7R/7RKOF.png" width="160" id="honey">
+
 
 
 
